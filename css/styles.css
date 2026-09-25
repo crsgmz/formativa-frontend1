@@ -78,6 +78,18 @@ img {
   color: #a3d9a5;
 }
 
+.texto-amarillo {
+  color: #ffaa00;
+}
+
+.texto-negrita {
+  font-weight: bold;
+}
+
+.texto-azul {
+  color: #003366;
+}
+
 .btn-blanco {
   color: white;
   border: solid white;
@@ -90,4 +102,23 @@ img {
 
 .texto-header p, h1,h2, div {
   margin: 4rem 0;
+}
+
+.nosotros {
+  display:flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+}
+
+.nosotros-items {
+  width: 55rem;
+}
+
+.nosotros img {
+  border-radius: 2rem;
+  object-fit: cover;
+  height: 25rem;
+  margin-left: 3rem;
 }
