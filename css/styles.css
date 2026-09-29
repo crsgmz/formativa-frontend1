@@ -122,3 +122,56 @@ img {
   height: 25rem;
   margin-left: 3rem;
 }
+
+.valores {
+  background-color:#003366;
+  padding: 4rem;
+}
+
+.valores-contenido {
+  background-color: white;
+  border-radius: 1.6rem;
+  padding: 2rem;
+  flex-basis: 33.3%;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.contenido {
+  display:flex;
+  justify-content: center;
+}
+
+.no-margen {
+  margin: 0;
+}
+
+footer {
+  background-color:#003366;
+}
+
+.contenido-superior {
+  color:white;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color:white;
+}
+
+.contenido-inferior {
+  color:white;
+}
+
+.contenido-inferior p {
+  text-align:center;
+}
+
+.copyright {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
