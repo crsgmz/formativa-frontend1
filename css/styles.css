@@ -3,7 +3,9 @@ html {
   /* REM */
   font-size: 62.5%;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -17,13 +19,13 @@ img {
 }
 
 .navbar {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
 }
 
 .nav-items {
-  display:flex;
+  display: flex;
 }
 
 .nav-items li {
@@ -34,7 +36,7 @@ img {
 .nav-items li a {
   text-decoration: none;
   color: #003366;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .container {
@@ -71,7 +73,7 @@ img {
 }
 
 .texto-blanco {
-  color:white;
+  color: white;
 }
 
 .texto-verde {
@@ -91,7 +93,7 @@ img {
 }
 
 .texto-gris {
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
 .btn-blanco {
@@ -104,12 +106,15 @@ img {
   margin-right: 6rem;
 }
 
-.texto-header p, h1,h2, div {
+.texto-header p,
+h1,
+h2,
+div {
   margin: 4rem 0;
 }
 
 .nosotros {
-  display:flex;
+  display: flex;
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -128,7 +133,7 @@ img {
 }
 
 .valores {
-  background-color:#003366;
+  background-color: #003366;
   padding: 4rem;
 }
 
@@ -142,7 +147,7 @@ img {
 }
 
 .contenido {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -150,13 +155,17 @@ img {
   margin: 0;
 }
 
+.poco-margen {
+  margin-top: 1rem;
+}
+
 footer {
-  background-color:#003366;
+  background-color: #003366;
 }
 
 .contenido-superior {
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   width: 160rem;
@@ -164,17 +173,17 @@ footer {
 
 .enlaces a {
   text-decoration: none;
-  color: #D9D9D9;
+  color: #d9d9d9;
   margin-bottom: 2rem;
   margin-right: 1rem;
 }
 
 .contenido-inferior {
-  color:white;
+  color: white;
 }
 
 .contenido-inferior p {
-  text-align:center;
+  text-align: center;
 }
 
 .copyright {
@@ -184,35 +193,35 @@ footer {
 }
 
 .enlaces {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
 .contacto {
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
 .conteiner-servicios {
-  display:flex;
-  justify-content:space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .texto {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin-right: 43rem;
   width: 70rem;
 }
 
 .cuadrados {
-  display:flex;
+  display: flex;
   justify-content: center;
   margin-top: -5rem;
   height: 45rem;
 }
 
 .cuadrados-items {
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   padding: 2rem;
   border-radius: 3rem;
   width: 35rem;
@@ -220,7 +229,7 @@ footer {
 }
 
 .boton-servicios {
-  display:flex;
+  display: flex;
   justify-content: center;
   border-radius: 1rem;
   width: 5rem;
@@ -234,8 +243,8 @@ footer {
 }
 
 .contenedor-cobertura {
-  display:flex;
-  background-color: #D9D9D9;
+  display: flex;
+  background-color: #d9d9d9;
   justify-content: center;
 }
 
@@ -248,7 +257,7 @@ footer {
 }
 
 .cobertura-texto li {
-  list-style-type:"✓";
+  list-style-type: "✓";
   padding: 1rem;
 }
 
@@ -263,10 +272,64 @@ footer {
 }
 
 .zonas-atencion span {
-  display:inline-flex;
-  background-color:#003366;
+  display: inline-flex;
+  background-color: #003366;
   color: white;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
+}
+
+.contacto-cotizacion {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.boton-gris {
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  padding: 1rem;
+  width: 50rem;
+  margin-left: 5rem;
+  border-radius: 2rem;
+}
+
+.contacto-formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.contacto-formulario input,
+textarea {
+  border-radius: 2rem;
+  padding: 1rem;
+  border: 1px solid #d9d9d9;
+}
+
+.boton-centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.btn2 {
+  background-color: #ffaa00;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 45rem;
+}
+
+.boton-nodeco {
+  border-style: none;
+  color: #003366;
 }
